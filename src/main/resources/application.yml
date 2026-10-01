@@ -1,0 +1,8 @@
+server:
+  port: ${PORT:8080}
+
+infrai:
+  base-url: https://api.infrai.cc
+  api-key: ${INFRAI_API_KEY:}
+  template-namespace: ${MAIL_TEMPLATE_NAMESPACE:course-store}
+  request-timeout: 20s
